@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&lt;/salt&gt; :: ToDo</title>
+  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <!-- <script defer src="./js/todo.js"></script> -->
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div id="header" class="header-wrapper">
+        <h1 class="header__title">To-Do List</h1>
+        <p class="header__text">A smart way to manage your tasks</p>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="form-wrapper">
+          <form id="form" class="new-task-form">
+            <input aria-label="Create new todo" placeholder="E.g. make a to-do list" id="form__input" class="form__input-text">
+            <button type="submit" class="new-task--create__btn">Add</button>
+          </form>
+        </div>
+        <aside id="feedback" class="empty-list-feedback">
+          <p>Your list is currently empty!</p>
+        </aside>
+        <div id="tasks-wrapper" class="tasks-wrapper">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <p class="footer__text">
+          By CC
+        </p>
+      </footer>
+    </footer>
+  </div>
+</body>
+
+</html>
